@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A533763226BDF2B0003880F /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A533762226BDF2B0003880F /* UserInfo.swift */; };
+		4A533765226D03BB0003880F /* HomeSocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A533764226D03BB0003880F /* HomeSocialTableViewCell.swift */; };
+		4A533767226D09660003880F /* HomeMarketPlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A533766226D09660003880F /* HomeMarketPlaceTableViewCell.swift */; };
+		4A533769226D2A7F0003880F /* HomeHousingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A533768226D2A7F0003880F /* HomeHousingTableViewCell.swift */; };
+		4A53376B226D5B560003880F /* SocialDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A53376A226D5B560003880F /* SocialDetailedViewController.swift */; };
+		4A76A2C3227391E600C1A922 /* MarketPlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A76A2C2227391E600C1A922 /* MarketPlaceDetailViewController.swift */; };
+		4A76A2C52273A3F500C1A922 /* HousingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A76A2C42273A3F500C1A922 /* HousingDetailViewController.swift */; };
+		4A76A2C72273B4A500C1A922 /* HomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A76A2C62273B4A500C1A922 /* HomeDetailViewController.swift */; };
+		4A76A2C922749F8300C1A922 /* marketplacePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A76A2C822749F8300C1A922 /* marketplacePostViewController.swift */; };
+		4A76A2CB2275279D00C1A922 /* SocialPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A76A2CA2275279D00C1A922 /* SocialPostViewController.swift */; };
+		4A76A2CD22755BB600C1A922 /* HousingPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A76A2CC22755BB600C1A922 /* HousingPostViewController.swift */; };
+		4AB65EAB2247266B0014ABAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB65EAA2247266B0014ABAE /* AppDelegate.swift */; };
+		4AB65EB22247266D0014ABAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB65EB12247266D0014ABAE /* Assets.xcassets */; };
+		4AB65EB52247266D0014ABAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB65EB32247266D0014ABAE /* LaunchScreen.storyboard */; };
+		4AB65EC72247E8400014ABAE /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB65EC62247E8400014ABAE /* Start.storyboard */; };
+		4AB65EC92247E9F10014ABAE /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB65EC82247E9F10014ABAE /* SigninViewController.swift */; };
+		4ABB63E52247EEE7009F7C5D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB63E42247EEE7009F7C5D /* SignUpViewController.swift */; };
+		4ABB63E722484D54009F7C5D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB63E622484D54009F7C5D /* HomeViewController.swift */; };
+		4ABB63E922484D7E009F7C5D /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB63E822484D7E009F7C5D /* SocialViewController.swift */; };
+		4ABB63EB22484DAE009F7C5D /* MarketPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB63EA22484DAE009F7C5D /* MarketPlaceViewController.swift */; };
+		4ABB63ED22484DC5009F7C5D /* HousingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB63EC22484DC5009F7C5D /* HousingViewController.swift */; };
+		4ABB63EF22484DE2009F7C5D /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB63EE22484DE2009F7C5D /* UserViewController.swift */; };
+		4ABB63F122485337009F7C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB63F022485337009F7C5D /* Main.storyboard */; };
+		4ABB63F322485604009F7C5D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB63F222485604009F7C5D /* Home.storyboard */; };
+		4ABB63F52248569E009F7C5D /* Social.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB63F42248569E009F7C5D /* Social.storyboard */; };
+		4ABB63F722485713009F7C5D /* MarketPlace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB63F622485713009F7C5D /* MarketPlace.storyboard */; };
+		4ABB63F92248574D009F7C5D /* Housing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB63F82248574D009F7C5D /* Housing.storyboard */; };
+		4ABB63FB2248577A009F7C5D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB63FA2248577A009F7C5D /* Profile.storyboard */; };
+		4ABB63FF22486AF9009F7C5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB63FE22486AF9009F7C5D /* GoogleService-Info.plist */; };
+		4ABC4BF22263AC9A00A7EEBE /* SocialPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC4BF12263AC9A00A7EEBE /* SocialPost.swift */; };
+		4ABC4BF42263B92800A7EEBE /* SocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC4BF32263B92800A7EEBE /* SocialTableViewCell.swift */; };
+		4ABC4BF62263D58D00A7EEBE /* HousingPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC4BF52263D58D00A7EEBE /* HousingPost.swift */; };
+		4ABC4BF82263D7BC00A7EEBE /* HousingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC4BF72263D7BC00A7EEBE /* HousingTableViewCell.swift */; };
+		4AE1B992225ADC77004F2112 /* PostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1B991225ADC77004F2112 /* PostingViewController.swift */; };
+		4AE39D372262A126003B6B4F /* MarketPlacePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE39D362262A126003B6B4F /* MarketPlacePost.swift */; };
+		4AE39D392262CC43003B6B4F /* MarketplaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE39D382262CC43003B6B4F /* MarketplaceTableViewCell.swift */; };
+		E354002F5050B223F3B1BFA5 /* Pods_Quack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5A3906D2213C14E0547676 /* Pods_Quack.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33B1A5AB960B647264CA2B37 /* Pods-Quack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quack.debug.xcconfig"; path = "Target Support Files/Pods-Quack/Pods-Quack.debug.xcconfig"; sourceTree = "<group>"; };
+		4A533762226BDF2B0003880F /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		4A533764226D03BB0003880F /* HomeSocialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSocialTableViewCell.swift; sourceTree = "<group>"; };
+		4A533766226D09660003880F /* HomeMarketPlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMarketPlaceTableViewCell.swift; sourceTree = "<group>"; };
+		4A533768226D2A7F0003880F /* HomeHousingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHousingTableViewCell.swift; sourceTree = "<group>"; };
+		4A53376A226D5B560003880F /* SocialDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialDetailedViewController.swift; sourceTree = "<group>"; };
+		4A76A2C2227391E600C1A922 /* MarketPlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceDetailViewController.swift; sourceTree = "<group>"; };
+		4A76A2C42273A3F500C1A922 /* HousingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingDetailViewController.swift; sourceTree = "<group>"; };
+		4A76A2C62273B4A500C1A922 /* HomeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewController.swift; sourceTree = "<group>"; };
+		4A76A2C822749F8300C1A922 /* marketplacePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marketplacePostViewController.swift; sourceTree = "<group>"; };
+		4A76A2CA2275279D00C1A922 /* SocialPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPostViewController.swift; sourceTree = "<group>"; };
+		4A76A2CC22755BB600C1A922 /* HousingPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingPostViewController.swift; sourceTree = "<group>"; };
+		4AB65EA72247266B0014ABAE /* Quack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB65EAA2247266B0014ABAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AB65EB12247266D0014ABAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AB65EB42247266D0014ABAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AB65EB62247266D0014ABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB65EC62247E8400014ABAE /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		4AB65EC82247E9F10014ABAE /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		4ABB63E42247EEE7009F7C5D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4ABB63E622484D54009F7C5D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4ABB63E822484D7E009F7C5D /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		4ABB63EA22484DAE009F7C5D /* MarketPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceViewController.swift; sourceTree = "<group>"; };
+		4ABB63EC22484DC5009F7C5D /* HousingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingViewController.swift; sourceTree = "<group>"; };
+		4ABB63EE22484DE2009F7C5D /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		4ABB63F022485337009F7C5D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4ABB63F222485604009F7C5D /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4ABB63F42248569E009F7C5D /* Social.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Social.storyboard; sourceTree = "<group>"; };
+		4ABB63F622485713009F7C5D /* MarketPlace.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MarketPlace.storyboard; sourceTree = "<group>"; };
+		4ABB63F82248574D009F7C5D /* Housing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Housing.storyboard; sourceTree = "<group>"; };
+		4ABB63FA2248577A009F7C5D /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		4ABB63FE22486AF9009F7C5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4ABC4BF12263AC9A00A7EEBE /* SocialPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPost.swift; sourceTree = "<group>"; };
+		4ABC4BF32263B92800A7EEBE /* SocialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewCell.swift; sourceTree = "<group>"; };
+		4ABC4BF52263D58D00A7EEBE /* HousingPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingPost.swift; sourceTree = "<group>"; };
+		4ABC4BF72263D7BC00A7EEBE /* HousingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingTableViewCell.swift; sourceTree = "<group>"; };
+		4AE1B991225ADC77004F2112 /* PostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingViewController.swift; sourceTree = "<group>"; };
+		4AE39D362262A126003B6B4F /* MarketPlacePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlacePost.swift; sourceTree = "<group>"; };
+		4AE39D382262CC43003B6B4F /* MarketplaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketplaceTableViewCell.swift; sourceTree = "<group>"; };
+		C1F714EC770C7120EC78BAA3 /* Pods-Quack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quack.release.xcconfig"; path = "Target Support Files/Pods-Quack/Pods-Quack.release.xcconfig"; sourceTree = "<group>"; };
+		DE5A3906D2213C14E0547676 /* Pods_Quack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AB65EA42247266B0014ABAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E354002F5050B223F3B1BFA5 /* Pods_Quack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		340F3B55FF674742E00D285C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33B1A5AB960B647264CA2B37 /* Pods-Quack.debug.xcconfig */,
+				C1F714EC770C7120EC78BAA3 /* Pods-Quack.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4AB65E9E2247266B0014ABAE = {
+			isa = PBXGroup;
+			children = (
+				4AB65EA92247266B0014ABAE /* Quack */,
+				4AB65EA82247266B0014ABAE /* Products */,
+				340F3B55FF674742E00D285C /* Pods */,
+				8348CBFC67F7BFA6FF25B71D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AB65EA82247266B0014ABAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB65EA72247266B0014ABAE /* Quack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AB65EA92247266B0014ABAE /* Quack */ = {
+			isa = PBXGroup;
+			children = (
+				4AB65EAA2247266B0014ABAE /* AppDelegate.swift */,
+				4AE39D3A2262CC88003B6B4F /* Views */,
+				4AE39D352262A0D9003B6B4F /* Model */,
+				4ABB63FD2248650B009F7C5D /* ViewControllers */,
+				4ABB63FC224864F4009F7C5D /* Storyboards */,
+				4AB65EB12247266D0014ABAE /* Assets.xcassets */,
+				4ABB63FE22486AF9009F7C5D /* GoogleService-Info.plist */,
+				4AB65EB32247266D0014ABAE /* LaunchScreen.storyboard */,
+				4AB65EB62247266D0014ABAE /* Info.plist */,
+			);
+			path = Quack;
+			sourceTree = "<group>";
+		};
+		4ABB63FC224864F4009F7C5D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4AB65EC62247E8400014ABAE /* Start.storyboard */,
+				4ABB63F022485337009F7C5D /* Main.storyboard */,
+				4ABB63FA2248577A009F7C5D /* Profile.storyboard */,
+				4ABB63F82248574D009F7C5D /* Housing.storyboard */,
+				4ABB63F622485713009F7C5D /* MarketPlace.storyboard */,
+				4ABB63F42248569E009F7C5D /* Social.storyboard */,
+				4ABB63F222485604009F7C5D /* Home.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4ABB63FD2248650B009F7C5D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AB65EC82247E9F10014ABAE /* SigninViewController.swift */,
+				4ABB63E42247EEE7009F7C5D /* SignUpViewController.swift */,
+				4A76A2C62273B4A500C1A922 /* HomeDetailViewController.swift */,
+				4ABB63E622484D54009F7C5D /* HomeViewController.swift */,
+				4ABB63E822484D7E009F7C5D /* SocialViewController.swift */,
+				4ABB63EA22484DAE009F7C5D /* MarketPlaceViewController.swift */,
+				4ABB63EE22484DE2009F7C5D /* UserViewController.swift */,
+				4ABB63EC22484DC5009F7C5D /* HousingViewController.swift */,
+				4AE1B991225ADC77004F2112 /* PostingViewController.swift */,
+				4A76A2C822749F8300C1A922 /* marketplacePostViewController.swift */,
+				4A76A2CA2275279D00C1A922 /* SocialPostViewController.swift */,
+				4A76A2CC22755BB600C1A922 /* HousingPostViewController.swift */,
+				4A53376A226D5B560003880F /* SocialDetailedViewController.swift */,
+				4A76A2C42273A3F500C1A922 /* HousingDetailViewController.swift */,
+				4A76A2C2227391E600C1A922 /* MarketPlaceDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4AE39D352262A0D9003B6B4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AE39D362262A126003B6B4F /* MarketPlacePost.swift */,
+				4ABC4BF12263AC9A00A7EEBE /* SocialPost.swift */,
+				4A533762226BDF2B0003880F /* UserInfo.swift */,
+				4ABC4BF52263D58D00A7EEBE /* HousingPost.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4AE39D3A2262CC88003B6B4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4AE39D382262CC43003B6B4F /* MarketplaceTableViewCell.swift */,
+				4A533768226D2A7F0003880F /* HomeHousingTableViewCell.swift */,
+				4A533764226D03BB0003880F /* HomeSocialTableViewCell.swift */,
+				4ABC4BF32263B92800A7EEBE /* SocialTableViewCell.swift */,
+				4A533766226D09660003880F /* HomeMarketPlaceTableViewCell.swift */,
+				4ABC4BF72263D7BC00A7EEBE /* HousingTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8348CBFC67F7BFA6FF25B71D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE5A3906D2213C14E0547676 /* Pods_Quack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AB65EA62247266B0014ABAE /* Quack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB65EB92247266D0014ABAE /* Build configuration list for PBXNativeTarget "Quack" */;
+			buildPhases = (
+				4EFA6A13A60F191B8BE76985 /* [CP] Check Pods Manifest.lock */,
+				4AB65EA32247266B0014ABAE /* Sources */,
+				4AB65EA42247266B0014ABAE /* Frameworks */,
+				4AB65EA52247266B0014ABAE /* Resources */,
+				3B44DDBF299D5F833F472186 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quack;
+			productName = Quack;
+			productReference = 4AB65EA72247266B0014ABAE /* Quack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AB65E9F2247266B0014ABAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Katya ";
+				TargetAttributes = {
+					4AB65EA62247266B0014ABAE = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4AB65EA22247266B0014ABAE /* Build configuration list for PBXProject "Quack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AB65E9E2247266B0014ABAE;
+			productRefGroup = 4AB65EA82247266B0014ABAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AB65EA62247266B0014ABAE /* Quack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB65EA52247266B0014ABAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB65EB52247266D0014ABAE /* LaunchScreen.storyboard in Resources */,
+				4ABB63F322485604009F7C5D /* Home.storyboard in Resources */,
+				4AB65EB22247266D0014ABAE /* Assets.xcassets in Resources */,
+				4ABB63F722485713009F7C5D /* MarketPlace.storyboard in Resources */,
+				4AB65EC72247E8400014ABAE /* Start.storyboard in Resources */,
+				4ABB63F122485337009F7C5D /* Main.storyboard in Resources */,
+				4ABB63FB2248577A009F7C5D /* Profile.storyboard in Resources */,
+				4ABB63FF22486AF9009F7C5D /* GoogleService-Info.plist in Resources */,
+				4ABB63F92248574D009F7C5D /* Housing.storyboard in Resources */,
+				4ABB63F52248569E009F7C5D /* Social.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B44DDBF299D5F833F472186 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quack/Pods-Quack-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quack/Pods-Quack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EFA6A13A60F191B8BE76985 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB65EA32247266B0014ABAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC4BF22263AC9A00A7EEBE /* SocialPost.swift in Sources */,
+				4ABB63ED22484DC5009F7C5D /* HousingViewController.swift in Sources */,
+				4ABB63EF22484DE2009F7C5D /* UserViewController.swift in Sources */,
+				4A76A2C52273A3F500C1A922 /* HousingDetailViewController.swift in Sources */,
+				4ABC4BF62263D58D00A7EEBE /* HousingPost.swift in Sources */,
+				4A533763226BDF2B0003880F /* UserInfo.swift in Sources */,
+				4AE39D392262CC43003B6B4F /* MarketplaceTableViewCell.swift in Sources */,
+				4ABC4BF82263D7BC00A7EEBE /* HousingTableViewCell.swift in Sources */,
+				4A76A2CB2275279D00C1A922 /* SocialPostViewController.swift in Sources */,
+				4A76A2C3227391E600C1A922 /* MarketPlaceDetailViewController.swift in Sources */,
+				4ABB63E922484D7E009F7C5D /* SocialViewController.swift in Sources */,
+				4ABB63E52247EEE7009F7C5D /* SignUpViewController.swift in Sources */,
+				4ABB63EB22484DAE009F7C5D /* MarketPlaceViewController.swift in Sources */,
+				4A76A2C922749F8300C1A922 /* marketplacePostViewController.swift in Sources */,
+				4A533767226D09660003880F /* HomeMarketPlaceTableViewCell.swift in Sources */,
+				4A53376B226D5B560003880F /* SocialDetailedViewController.swift in Sources */,
+				4AE39D372262A126003B6B4F /* MarketPlacePost.swift in Sources */,
+				4AB65EC92247E9F10014ABAE /* SigninViewController.swift in Sources */,
+				4AB65EAB2247266B0014ABAE /* AppDelegate.swift in Sources */,
+				4ABC4BF42263B92800A7EEBE /* SocialTableViewCell.swift in Sources */,
+				4A76A2CD22755BB600C1A922 /* HousingPostViewController.swift in Sources */,
+				4A533765226D03BB0003880F /* HomeSocialTableViewCell.swift in Sources */,
+				4A76A2C72273B4A500C1A922 /* HomeDetailViewController.swift in Sources */,
+				4ABB63E722484D54009F7C5D /* HomeViewController.swift in Sources */,
+				4AE1B992225ADC77004F2112 /* PostingViewController.swift in Sources */,
+				4A533769226D2A7F0003880F /* HomeHousingTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AB65EB32247266D0014ABAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB65EB42247266D0014ABAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AB65EB72247266D0014ABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AB65EB82247266D0014ABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AB65EBA2247266D0014ABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B1A5AB960B647264CA2B37 /* Pods-Quack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Quack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.katya.Quack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AB65EBB2247266D0014ABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F714EC770C7120EC78BAA3 /* Pods-Quack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Quack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.katya.Quack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AB65EA22247266B0014ABAE /* Build configuration list for PBXProject "Quack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB65EB72247266D0014ABAE /* Debug */,
+				4AB65EB82247266D0014ABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB65EB92247266D0014ABAE /* Build configuration list for PBXNativeTarget "Quack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB65EBA2247266D0014ABAE /* Debug */,
+				4AB65EBB2247266D0014ABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AB65E9F2247266B0014ABAE /* Project object */;
+}
